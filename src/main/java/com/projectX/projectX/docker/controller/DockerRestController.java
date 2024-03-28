@@ -12,4 +12,7 @@ public class DockerRestController {
     public String docker() {
         return "docker sample";
     }
+
+    @GetMapping("")
+    public String test(){return "its test!";}
 }
