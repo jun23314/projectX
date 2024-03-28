@@ -10,6 +10,6 @@ public class DockerRestController {
 
     @RequestMapping("/sample")
     public String docker() {
-        return "sample";
+        return "docekr sample";
     }
 }
